@@ -1,0 +1,55 @@
+.container {
+  margin: 3rem 0 0 0 !important;
+}
+
+.padding {
+  margin: auto 140px 120px 140px !important;
+}
+
+.card {
+  margin: 0.5rem 0.5rem !important;
+  font-weight: bold !important;
+  height: 145px !important;
+  min-width: 145px !important;
+  color: #ffffff !important;
+  border-radius: 1px !important;
+  position: relative;
+  cursor: pointer;
+}
+
+.icons {
+  height: 55px;
+  width: 55px;
+  color: #ffffff;
+  margin-bottom: 14.9px;
+}
+
+.addResource {
+  font-weight: 500 !important;
+  display: inline !important;
+  margin-right: 1rem;
+  cursor: pointer;
+  /* line-height: 2px !important; */
+}
+
+.categoryTitle {
+  /* margin-top: 4rem !important; */
+  width: 118.1px !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: 1.11 !important;
+  letter-spacing: normal !important;
+  color: #ffffff !important;
+}
+
+@media (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+
+  .container {
+    margin: 1rem;
+  }
+}
